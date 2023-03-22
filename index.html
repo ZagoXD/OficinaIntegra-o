@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="inicio">
+        <span class="spanIni"><button onclick="window.location.href = '///C:/Users/gugu_/OneDrive/%C3%81rea%20de%20Trabalho/aa/algoritmo.html'" class="glow-on-hover"><input type="image" src="https://i.ibb.co/w7F46p7/Screenshot-5.png" style="width: 70px; height: 60px; align-items: center;"></button></span>
+    </div>
+    <div class="info">
+        <span class="spanInfo"><button onclick="btn1()" class="glow-on-hover">Wiki</button><span id="wiki" class = glow-on-hover>Este trabalho propoe o prototipo de um algoritmo capaz de detectar expressões faciais e atribuir, a cada uma delas, seu respectivo sentimento</span></span>
+        <span class="spanInfo"><button onclick="btn2()" class="glow-on-hover">Devs</button><span id="devs" class="glow-on-hover">
+            <div style="display: block;">
+                <div>
+                    <img src="https://i.ibb.co/SfH4r6c/mystery.jpg" alt="Sem foto" id ="fotos" style="float: left"><p>Giovani</p>
+                </div>
+                <div>
+                    <img src="https://i.ibb.co/SfH4r6c/mystery.jpg" alt="Sem foto" id ="fotos" style="float: left"><p>Gustavo</p>
+                </div>
+                <div>
+                    <img src="https://i.ibb.co/SfH4r6c/mystery.jpg" alt="Sem foto" id ="fotos" style="float: left"><p>Felipe</p>
+                </div>
+                <div>
+                    <img src="https://i.ibb.co/SfH4r6c/mystery.jpg" alt="Sem foto" id ="fotos" style="float: left"><p>Jonathan</p>
+                </div>
+            </div>
+        </span></span>
+    </div>
+</body>
+<script>
+    function btn1(){
+        var wiki = document.getElementById("wiki")
+        var nome = document.getElementById("devs")
+        if(wiki.style.display === "none"){
+            wiki.style.display="block"
+            nome.style.display="none"
+        }
+        else{
+            wiki.style.display="none"
+        }
+    }
+    function btn2(){
+        var wiki = document.getElementById("wiki")
+        var nome = document.getElementById("devs")
+        if(nome.style.display === "none"){
+            nome.style.display="block"
+            wiki.style.display="none"
+        }
+        else{
+            nome.style.display="none"
+        }
+    }
+
+
+
+</script>
+</html>
